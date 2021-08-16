@@ -8,7 +8,7 @@
 import SwiftUI
 import WebKit
 
-struct GifView: UIViewRepresentable {
+struct GifImage: UIViewRepresentable {
     private let name: String
 
     init(_ name: String) {
@@ -37,8 +37,8 @@ struct GifView: UIViewRepresentable {
 }
 
 
-struct GifView_Previews: PreviewProvider {
+struct GifImage_Previews: PreviewProvider {
     static var previews: some View {
-        GifView("pokeball")
+        GifImage("pokeball")
     }
 }

@@ -12,7 +12,7 @@
 		B501E39826CA9A5200E25D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B501E39726CA9A5200E25D4F /* Assets.xcassets */; };
 		B501E39B26CA9A5200E25D4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B501E39A26CA9A5200E25D4F /* Preview Assets.xcassets */; };
 		B55E022D26CA9D9600DF5F11 /* pokeball.gif in Resources */ = {isa = PBXBuildFile; fileRef = B55E022C26CA9D9600DF5F11 /* pokeball.gif */; };
-		B5D9C0CA26CA9E2500DB230A /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9C0C926CA9E2500DB230A /* GifView.swift */; };
+		B5D9C0CA26CA9E2500DB230A /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9C0C926CA9E2500DB230A /* GifImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		B501E39A26CA9A5200E25D4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B501E39C26CA9A5200E25D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55E022C26CA9D9600DF5F11 /* pokeball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeball.gif; sourceTree = "<group>"; };
-		B5D9C0C926CA9E2500DB230A /* GifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		B5D9C0C926CA9E2500DB230A /* GifImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		B501E39226CA9A4E00E25D4F /* GifView_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B5D9C0C926CA9E2500DB230A /* GifView.swift */,
+				B5D9C0C926CA9E2500DB230A /* GifImage.swift */,
 				B55E022C26CA9D9600DF5F11 /* pokeball.gif */,
 				B501E39326CA9A4F00E25D4F /* GifView_SwiftUIApp.swift */,
 				B501E39526CA9A4F00E25D4F /* ContentView.swift */,
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B501E39626CA9A4F00E25D4F /* ContentView.swift in Sources */,
-				B5D9C0CA26CA9E2500DB230A /* GifView.swift in Sources */,
+				B5D9C0CA26CA9E2500DB230A /* GifImage.swift in Sources */,
 				B501E39426CA9A4F00E25D4F /* GifView_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

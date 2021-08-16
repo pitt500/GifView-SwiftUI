@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List(0..<10) { item in
-            GifView("pokeball")
+            GifImage("pokeball")
                 .frame(width: 200, height: 200)
 
         }
